@@ -1,0 +1,354 @@
+body {
+  font-size: 16px;
+}
+a {
+  color: #009688
+}
+blockquote {
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #795548;
+  color: #795548;
+  font-weight: 400;
+  font-size: 125%;
+}
+nav {
+  background: white;
+  box-shadow: none;
+  height: 0;
+}
+nav i {
+  padding: 0 15px;
+  position: relative;
+  top: 5px;
+}
+main {
+  padding-left: 190px;
+  background: url(http://subtlepatterns.com/patterns/tiny_grid.png);
+}
+ul.side-nav {
+  width: 190px;
+}
+ul.side-nav li {
+  padding: 0
+}
+ul.side-nav.fixed a {
+  display: block;
+  color: #444;
+  box-sizing: content-box;
+  line-height: 100%;
+  padding: 10px 0 12px
+}
+ul.table-of-contents li.logo a.active,
+ul.table-of-contents li.logo a:hover {
+  border: none;
+  font-weight: 200
+}
+ul.side-nav.fixed li.logo {
+  padding: 30px 30px 40px;
+  border-bottom: 1px solid #ddd;
+  min-height: 90px;
+  box-sizing: content-box;
+  background-color: #fafafa
+}
+ul.side-nav.fixed li.logo a {
+  line-height: 100%;
+  font-weight: 200;
+}
+ul.table-of-contents li:not(.logo) a.active,
+ul.table-of-contents li:not(.logo) a:hover {
+  border-left: 3px solid ;
+  background-color: #fafafa
+}
+ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
+ul#slide-out li:not(.logo) a span {
+  color: #333 !important
+}
+li.logo span {
+  display: block;
+  font-size: 14px;
+}
+.container {
+  width: 95%
+}
+h3 {
+  padding: 30px 40px;
+  font-weight: 200;
+  margin-top: 0;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.section {
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+.full-height {
+  height: 100vh;
+}
+#intro.section {
+  background: url(img/andrew-borstein2.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+/*
+#intro.section.two {
+  background: url(img/andrew-borstein.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+#intro.section.three {
+  background: url(img/andrew-borstein3.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+*/
+#intro.section .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-weight: 200;
+}
+#intro.section .container *:not(span) {
+  font-weight: 300;
+  padding: 0 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  line-height: 150%;
+}
+#intro.section .underline {
+  border-bottom: 5px solid #009688;
+}
+#intro.section .teal {
+  padding: 0 10px;
+}
+.waves-effect.waves-blue .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(33, 150, 243, 0.2);
+ }
+.card {
+  margin-bottom: 60px;
+}
+.card .role {
+    position: absolute;
+    top: 35px;
+    right: 38px;
+}
+.card .card-content {
+  padding-bottom: 30px;
+}
+.card .card-content p {
+  padding: 5px 0 0;
+}
+#experience .card-action {
+  border: none;
+  background-color: rgba(0,0,0,0.02);
+}
+.card-action span {
+  font-size: 85%;
+  color: #999;
+}
+.card ul {
+  margin-bottom: 0
+}
+
+.card ul li {
+  list-style-type: disc;
+  margin-left: 24px;
+  line-height: 200%;
+}
+.card .card-title {
+  font-size: 24px;
+}
+.card i.right {
+  margin-left: 10px;
+}
+a.hoverline {
+  -webkit-transition: .25s all;
+  -moz-transition: .25s all;
+  transition: .25s all;
+  border-bottom: 3px solid transparent !important;
+  padding: 3px 3px 0 3px;
+}
+a.hoverline:hover {
+  border-bottom: 3px solid #009688 !important;
+}
+#skills .card.large {
+  height: 360px;
+}
+#skills h4 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+/*#skills .row {
+  margin-bottom: 60px;
+}
+*/
+#skills .col img.responsive-img {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  max-height: 100px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+.card.large .card-content p {
+  margin: 0;
+  color: inherit;
+  padding: 30px 0;
+}
+#experience .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.card.large .card-image {
+  height: 230px;
+}
+.card.large .card-content {
+  height: auto;
+}
+.card.medium .card-image {
+  height: 240px;
+}
+.card-action a.btn-floating {
+margin-bottom: 0;
+}
+
+#contact a:not(.btn-floating) {
+  position: relative;
+  left: 20px;
+  bottom: 6px;
+}
+#experience .col.s12.m2 {
+  text-align: center;
+}
+.fa-external-link:before {
+  position: relative;
+  left: 3px;
+  top: 2px;
+}
+@media (min-width: 1200px) {
+  #experience .container {
+    width: 860px
+  }
+}
+@media (max-width: 1360px) {
+  .card ul li {
+    margin-left: 20px;
+    line-height: 200%;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1160px) {
+  .card ul li {
+    line-height: 150%;
+  }
+}
+@media (max-width: 992px) {
+  main {
+    padding-left: 0px;
+    padding-top: 64px;
+  }
+  ul.side-nav a {
+    width: 100%;
+    padding: 0;
+    line-height: 100%;
+  }
+  nav {
+    height: 64px;
+    background: #fff;
+    position: absolute;
+  }
+  nav a.button-collapse,
+  nav a.button-collapse i {
+    color: #009688;
+    height: 56px;
+    line-height: 56px;
+  }
+  h3 {
+    padding: 20px 30px;
+      margin-bottom: 40px;
+  }
+  .container {
+    margin:  0 auto
+  }
+  
+  nav.hide-on-large.only.trigger {
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .name-title {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .name-title > span,
+  .name-title > a {
+      position: relative;
+      line-height: 20px;
+  }
+  .name-title a {
+      font-size: 22px;
+      display: block;
+  }
+  .name-title span {
+      font-size: 14px;
+      display: block;
+  }
+  h3, 
+  .container {
+    position: relative;   
+    top: 64px;
+  }
+  section#intro {
+      margin-bottom: -64px;
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 22px;
+    line-height: 200%;
+    margin: 30px 0 0;
+  }
+  #intro.section .container *:not(span) {
+    padding: 0;
+  }
+  .card .card-content .card-title {
+    line-height: 24px;
+    font-size: 20px;
+  }
+  .card .role {
+      position: relative;
+      top: initial;
+      right: initial;
+  }
+  #experience span.card-title {
+    
+    text-align: center;
+    display: block
+  }
+  #experience span.card-title a {
+      margin: 0;
+  }
+  i.mdi-navigation-close.right {
+    position: relative;
+    bottom: 35px;
+  }
+  #contact a:not(.btn-floating) {
+    text-align: center;
+    display: block;
+    left: initial;
+    bottom: initial;
+  }
+  #contact a.btn-floating.btn-large {
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+  }
+}
